@@ -10,6 +10,12 @@ use App\Http\Controllers\Controller;
 class LoginController extends CommonController{
     public function login()
     {
+//        echo "ok";
         return view('admin.login');
+    }
+
+    public function code()
+    {
+        echo "code";
     }
 }

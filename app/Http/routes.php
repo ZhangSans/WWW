@@ -19,3 +19,4 @@ Route::get('test','IndexController@test');
 Route::get('index','IndexController@index');
 
 Route::get('admin/login','Admin\LoginController@login');
+Route::get('admin/code','Admin\LoginController@code');
